@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">About Canada</string>
+    <string name="title_activity_main">About Canada</string>
+    <string name="internet_problem">Unable to connect the server. Please try again later.</string>
+    <string name="loading">Please wait...</string>
+    <string name="no_records">No Records Found!</string>
+
+    <!-- API Call -->
+    <string name="country_detail_url">https://dl.dropboxusercontent.com/u/746330/facts.json</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="country_detail_margin">5dp</dimen>
+    <dimen name="actionbar_title">20sp</dimen>
+    <dimen name="country_detail_title">18sp</dimen>
+    <dimen name="country_detail_desc">14sp</dimen>
+
+</resources>

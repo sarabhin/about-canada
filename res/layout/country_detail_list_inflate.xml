@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/country_detail_margin" 
+    android:background="@color/list_bg">
+
+    <LinearLayout
+        android:id="@+id/lnrInflater"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/country_detail_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/country_detail_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="@color/desc_color"
+                android:textSize="@dimen/country_detail_desc" />
+
+            <ImageView
+                android:id="@+id/imgHref"
+                style="@style/country_detail_imgHref"
+                android:src="@drawable/ic_launcher" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/country_detail_margin"
+        android:src="@drawable/arrow" />
+
+</LinearLayout>
