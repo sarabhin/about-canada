@@ -1,41 +1,5 @@
-java -jar api.jar --spring.config.location=D:\CTS_PROJECT\Hygieia\Hygieia-master\Hygieia-master\api\dashboard.properties
-
-
-Thomas,
- 
-PFB the sample data for putting it in the Feature widget of Hygieia dashboard…
- 
-Release 1
- 
-                Sprint 1 (2 Weeks)
-                                Tasks
-1. Environment Readiness
-2. Product Training
-3. Creating Understanding Document
-                Sprint 2 (2 weeks)
-                                Tasks
-1. LLD preparation
-2. Coding
-3. Code Review
-4. Unit Testing
-               
-The hierarchy should be Release àSprint à Tasks
- 
-As discussed please try out the changes and feel free to call me if you have any doubts.
- 
-My gitHub  id is navaneeth-sk
- 
-Thanks,
-Navaneeth
-
-
 1. UI - login data in local db
 2. UI changes level
 3. internet check
 4. change each widget - some local data
 5. what version of hygieia
-6. without widget
-7. multiple collector - one dashboard
- 
-Regards,
-Thomas William Sarabhin.
